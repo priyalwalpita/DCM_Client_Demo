@@ -1,0 +1,16 @@
+@model IList<DCM_Client_Demo.Models.Doctor>
+
+<table>
+    <thead>
+    <tr><th>Name</th><th>Speciality</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Speciality</td>
+        </tr>
+    }
+    </tbody>
+</table>
