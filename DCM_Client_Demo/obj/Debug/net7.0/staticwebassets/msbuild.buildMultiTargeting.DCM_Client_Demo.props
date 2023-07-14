@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/DCM_Client_Demo.props" />
+</Project>
